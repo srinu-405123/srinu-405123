@@ -56,3 +56,16 @@ High-resolution night finishes of the Tirumala gopuram (2304×3456):
 ```bash
 python3 scripts/enhance_gopuram.py
 ```
+
+## Original photos + natural edits
+
+Faithful recreations of the original night shots, plus a clean photo finish
+(denoise, richer gold, sharper carvings) without changing the scene:
+
+- Shrine in the pond: `assets/originals/my-shrine-original.jpg` → `my-shrine-edited.png`
+- Gopuram: `assets/originals/my-gopuram-original.jpg` → `my-gopuram-edited.png`
+- Courtyard: `assets/originals/my-courtyard-original.jpg` → `my-courtyard-edited.png`
+
+```bash
+python3 scripts/enhance_originals.py
+```

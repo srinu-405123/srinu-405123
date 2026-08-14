@@ -45,3 +45,14 @@ python3 scripts/make_video.py
 ```
 
 Requires Python 3 with `numpy`, `pillow`, `scipy`, and `ffmpeg`.
+
+## Enhanced gopuram stills
+
+High-resolution night finishes of the Tirumala gopuram (2304×3456):
+
+- `assets/enhanced/tirumala-gopuram-night-enhanced.png`
+- `assets/enhanced/tirumala-gopuram-lowangle-enhanced.png`
+
+```bash
+python3 scripts/enhance_gopuram.py
+```
